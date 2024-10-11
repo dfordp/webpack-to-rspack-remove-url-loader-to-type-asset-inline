@@ -1,0 +1,20 @@
+{
+  "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
+  "name": "webpack-to-rspack/remove-url-loader-to-type-asset-inline",
+  "version": "1.0.0",
+  "engine": "jscodeshift",
+  "private": false,
+  "arguments": [],
+  "meta": {
+    "tags": [
+      "webpack",
+      "version 5",
+      "rspack",
+      "migrations",
+      "loaders",
+      "url-loader",
+      "asset/inline"
+    ],
+    "git": "https://github.com/dfordp/webpack-to-rspack-remove-file-loader-to-type-asset-resource"
+  }
+}
